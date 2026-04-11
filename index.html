@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luis Enrique Lopez Martinez — Senior iOS Engineer</title>
+  <meta name="description" content="Senior iOS Engineer with 14+ years of experience. Portfolio showcasing SnapGPX, SmartCharge, and PlanToWatch.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <button class="lang-toggle" data-i18n="langToggle">ES</button>
+      <h1>Luis Enrique Lopez Martinez</h1>
+      <p class="subtitle" data-i18n="subtitle">Senior iOS Engineer · 14+ years building iOS apps</p>
+      <div class="links">
+        <a href="https://linkedin.com/in/lopmarlu">LinkedIn</a>
+        <a href="https://github.com/buca1821">GitHub</a>
+        <a href="mailto:lopmarlu@gmail.com">lopmarlu@gmail.com</a>
+      </div>
+    </header>
+
+    <section id="about">
+      <h2 data-i18n="aboutTitle">About</h2>
+      <p data-i18n="aboutP1">Nearly 10 years at Ocado Technology contributing to Ocado Smart Platform — a modular, multi-tenant e-commerce platform powering 13 retail partners across 11 markets (Marks &amp; Spencer, Kroger, AEON, Coles, and others). Focused on code quality, modular architecture, testing, and large-scale technical migrations (Objective-C → Swift, UIKit → SwiftUI, RxSwift → Combine/async-await).</p>
+      <p data-i18n="aboutP2">Now building personal projects, using AI as a multiplier across every phase of development: architecture, implementation, design, testing, localization, CI/CD, market research, and App Store preparation.</p>
+    </section>
+
+    <section id="projects">
+      <h2 data-i18n="projectsTitle">Projects</h2>
+      <p><em data-i18n="projectsNote">Repos are private — TestFlight builds and demos available on request.</em></p>
+
+      <div class="project" id="snapgpx">
+        <h3>SnapGPX <span class="badge" data-i18n="snapgpxBadge">App Store</span></h3>
+        <p class="description" data-i18n="snapgpxDesc">iOS app that exports Apple Health workouts to GPX format — individually or in bulk — with route visualization, elevation charts, Strava upload, and support for 11 languages.</p>
+        <div class="tech-tags">
+          <span>iOS 26+</span><span>Swift 6</span><span>SwiftUI</span><span>MVVM</span>
+          <span>HealthKit</span><span>MapKit</span><span>Swift Charts</span><span>Strava API</span>
+        </div>
+        <ul class="highlights" data-i18n-list="snapgpxHighlights">
+          <li>Unit tests, UI tests, localization (11 languages), accessibility</li>
+          <li>Design system, feature-based architecture</li>
+          <li>CI/CD: GitHub Actions + Xcode Cloud</li>
+          <li>AI-driven development across every phase: architecture, design, implementation, testing, localization, market research, App Store copy</li>
+        </ul>
+        <a class="link" href="https://snapgpx.github.io">snapgpx.github.io →</a>
+      </div>
+
+      <div class="project" id="smartcharge">
+        <h3>SmartCharge <span class="badge poc" data-i18n="smartchargeBadge">Proof of Concept</span></h3>
+        <p class="description" data-i18n="smartchargeDesc">Intelligent EV charging for Tesla vehicles. Optimizes for the lowest electricity prices (Spanish PVPC tariff), learns your habits, and schedules charging automatically.</p>
+        <div class="tech-tags">
+          <span>Swift</span><span>SwiftUI</span><span>async/await</span><span>MVVM</span>
+          <span>Tesla Fleet API</span><span>OAuth PKCE</span><span>Vehicle Command Protocol</span>
+        </div>
+        <ul class="highlights" data-i18n-list="smartchargeHighlights">
+          <li>Tesla Fleet API integration: OAuth PKCE + Vehicle Command Protocol</li>
+          <li>Price-optimized scheduling with historical data prediction</li>
+          <li>Calendar awareness and proactive notifications</li>
+          <li>125 unit tests, zero external dependencies</li>
+        </ul>
+      </div>
+
+      <div class="project" id="plantowatch">
+        <h3>PlanToWatch <span class="badge poc" data-i18n="plantowatchBadge">Proof of Concept</span></h3>
+        <p class="description" data-i18n="plantowatchDesc">Takes workout instructions from coaching apps — as screenshots, camera photos, or pasted text — and turns them into Custom Workouts that sync to Apple Watch via WorkoutKit.</p>
+        <div class="tech-tags">
+          <span>Swift 6</span><span>SwiftUI</span><span>WorkoutKit</span>
+          <span>Foundation Models</span><span>Vision OCR</span>
+        </div>
+        <ul class="highlights" data-i18n-list="plantowatchHighlights">
+          <li>On-device AI: Apple Foundation Models with @Generable, greedy sampling, post-validation</li>
+          <li>Parser escalation: Foundation Models → Claude Haiku. Future: Gemma 4 via MLX Swift</li>
+          <li>Flow: Screenshot/Camera/Text → OCR → Foundation Models → Edit → Apple Watch</li>
+          <li>10 tests (8 active, 2 conditionally skipped for FM on physical device)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="ai">
+      <h2 data-i18n="aiTitle">AI-Augmented Development</h2>
+      <p data-i18n="aiIntro">Early adopter of AI-augmented development. Advanced customization of Claude Code with skills, hooks, agents, and plugins to automate the full development cycle.</p>
+
+      <div class="ai-repo">
+        <h4><a href="https://github.com/buca1821/claude-code-ios-template">claude-code-ios-template</a></h4>
+        <p data-i18n="templateDesc">Reusable Claude Code setup for iOS projects: 12 skills, 4 audit agents, git hooks, rules, and commands.</p>
+      </div>
+
+      <div class="ai-repo">
+        <h4><a href="https://github.com/buca1821/claude-marketplace">claude-marketplace</a></h4>
+        <p data-i18n="marketplaceDesc">Personal plugin marketplace for Claude Code with iOS development, workflow, and utility plugins.</p>
+      </div>
+    </section>
+
+    <section id="stack">
+      <h2 data-i18n="stackTitle">Tech Stack</h2>
+      <dl class="stack-grid">
+        <dt data-i18n="stackLblLanguages">Languages</dt>
+        <dd data-i18n="stackLanguages">Swift, SwiftUI, Objective-C</dd>
+        <dt data-i18n="stackLblArch">Architecture</dt>
+        <dd data-i18n="stackArch">MVVM, Clean Architecture, Modular SPM (39+ modules), DI Containers, Coordinators, SOLID</dd>
+        <dt data-i18n="stackLblConcurrency">Concurrency</dt>
+        <dd data-i18n="stackConcurrency">async/await, Combine, RxSwift, GCD</dd>
+        <dt data-i18n="stackLblTesting">Testing</dt>
+        <dd data-i18n="stackTesting">Swift Testing, XCTest, Unit Tests, Snapshot Testing, Integration Tests</dd>
+        <dt data-i18n="stackLblTooling">Tooling</dt>
+        <dd data-i18n="stackTooling">Xcode, Git, CI/CD (GitLab CI, GitHub Actions, Xcode Cloud), Fastlane, SPM</dd>
+        <dt data-i18n="stackLblOther">Other</dt>
+        <dd data-i18n="stackOther">REST APIs, Design Systems, Accessibility, i18n/l10n, A/B Testing</dd>
+        <dt data-i18n="stackLblAI">AI</dt>
+        <dd data-i18n="stackAI">Claude Code (skills/hooks/agents/plugins), Cursor, Gemini CLI, GitHub Copilot</dd>
+      </dl>
+    </section>
+
+    <footer>
+      <p data-i18n="footerNote">Repos are private — TestFlight builds and demos available on request.</p>
+      <p><a href="https://linkedin.com/in/lopmarlu">LinkedIn</a> · <a href="https://github.com/buca1821">GitHub</a> · <a href="mailto:lopmarlu@gmail.com">lopmarlu@gmail.com</a></p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
