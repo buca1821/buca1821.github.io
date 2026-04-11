@@ -8,7 +8,7 @@
       projectsTitle: "Projects",
       projectsNote: "Repos are private \u2014 TestFlight builds and demos available on request.",
       snapgpxBadge: "App Store",
-      snapgpxDesc: "iOS app that exports Apple Health workouts to GPX format \u2014 individually or in bulk \u2014 with route visualization, elevation charts, Strava upload, and support for 11 languages.",
+      snapgpxDesc: "Born from a love for trail running and hiking. Export your Apple Health workouts to GPX \u2014 individually or in bulk \u2014 with route visualization, elevation charts, multi-segment route merging, individual multi-sport workout export to Strava, and support for 11 languages.",
       snapgpxHighlights: ["Unit tests, UI tests, localization (11 languages), accessibility", "Design system, feature-based architecture", "CI/CD: GitHub Actions + Xcode Cloud", "AI-driven development across every phase: architecture, design, implementation, testing, localization, market research, App Store copy"],
       smartchargeBadge: "Proof of Concept",
       smartchargeDesc: "Intelligent EV charging for Tesla vehicles. Optimizes for the lowest electricity prices (Spanish PVPC tariff), learns your habits, and schedules charging automatically.",
@@ -21,7 +21,8 @@
       templateDesc: "Reusable Claude Code setup for iOS projects: 12 skills, 4 audit agents, git hooks, rules, and commands.",
       marketplaceDesc: "Personal plugin marketplace for Claude Code with iOS development, workflow, and utility plugins.",
       stackTitle: "Tech Stack",
-      stackLanguages: "Swift, SwiftUI, Objective-C",
+      stackLanguages: "Swift, Objective-C",
+      stackUI: "SwiftUI, UIKit",
       stackArch: "MVVM, Clean Architecture, Modular SPM (39+ modules), DI Containers, Coordinators, SOLID",
       stackConcurrency: "async/await, Combine, RxSwift, GCD",
       stackTesting: "Swift Testing, XCTest, Unit Tests, Snapshot Testing, Integration Tests",
@@ -30,7 +31,7 @@
       stackAI: "Claude Code (skills/hooks/agents/plugins), Cursor, Gemini CLI, GitHub Copilot",
       footerNote: "Repos are private \u2014 TestFlight builds and demos available on request.",
       langToggle: "ES",
-      stackLblLanguages: "Languages", stackLblArch: "Architecture", stackLblConcurrency: "Concurrency",
+      stackLblLanguages: "Languages", stackLblUI: "UI", stackLblArch: "Architecture", stackLblConcurrency: "Concurrency",
       stackLblTesting: "Testing", stackLblTooling: "Tooling", stackLblOther: "Other", stackLblAI: "AI"
     },
     es: {
@@ -41,7 +42,7 @@
       projectsTitle: "Proyectos",
       projectsNote: "Los repositorios son privados \u2014 builds de TestFlight y demos disponibles a petici\u00f3n.",
       snapgpxBadge: "App Store",
-      snapgpxDesc: "App iOS que exporta entrenamientos de Apple Health a formato GPX \u2014 individual o en lote \u2014 con visualizaci\u00f3n de rutas, gr\u00e1ficos de elevaci\u00f3n, subida a Strava y soporte para 11 idiomas.",
+      snapgpxDesc: "Nacida del amor por el trail running y el senderismo. Exporta tus entrenamientos de Apple Health a GPX \u2014 individual o en lote \u2014 con visualizaci\u00f3n de rutas, gr\u00e1ficos de elevaci\u00f3n, combinaci\u00f3n de rutas multi-segmento, exportaci\u00f3n individual de entrenamientos multideporte a Strava, y soporte para 11 idiomas.",
       snapgpxHighlights: ["Tests unitarios, tests de UI, localizaci\u00f3n (11 idiomas), accesibilidad", "Design system, arquitectura basada en features", "CI/CD: GitHub Actions + Xcode Cloud", "Desarrollo impulsado por IA en cada fase: arquitectura, dise\u00f1o, implementaci\u00f3n, testing, localizaci\u00f3n, estudio de mercado, textos App Store"],
       smartchargeBadge: "Prueba de Concepto",
       smartchargeDesc: "Carga inteligente de veh\u00edculos el\u00e9ctricos Tesla. Optimiza seg\u00fan los precios m\u00e1s baratos de electricidad (tarifa PVPC), aprende tus h\u00e1bitos y programa la carga autom\u00e1ticamente.",
@@ -54,7 +55,8 @@
       templateDesc: "Setup reutilizable de Claude Code para proyectos iOS: 12 skills, 4 agentes de auditor\u00eda, git hooks, reglas y comandos.",
       marketplaceDesc: "Marketplace personal de plugins para Claude Code con plugins de desarrollo iOS, workflow y utilidades.",
       stackTitle: "Stack T\u00e9cnico",
-      stackLanguages: "Swift, SwiftUI, Objective-C",
+      stackLanguages: "Swift, Objective-C",
+      stackUI: "SwiftUI, UIKit",
       stackArch: "MVVM, Clean Architecture, SPM modular (39+ m\u00f3dulos), DI Containers, Coordinators, SOLID",
       stackConcurrency: "async/await, Combine, RxSwift, GCD",
       stackTesting: "Swift Testing, XCTest, Tests Unitarios, Snapshot Testing, Tests de Integraci\u00f3n",
@@ -63,7 +65,7 @@
       stackAI: "Claude Code (skills/hooks/agents/plugins), Cursor, Gemini CLI, GitHub Copilot",
       footerNote: "Los repositorios son privados \u2014 builds de TestFlight y demos disponibles a petici\u00f3n.",
       langToggle: "EN",
-      stackLblLanguages: "Lenguajes", stackLblArch: "Arquitectura", stackLblConcurrency: "Concurrencia",
+      stackLblLanguages: "Lenguajes", stackLblUI: "UI", stackLblArch: "Arquitectura", stackLblConcurrency: "Concurrencia",
       stackLblTesting: "Testing", stackLblTooling: "Herramientas", stackLblOther: "Otros", stackLblAI: "IA"
     }
   };
