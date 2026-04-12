@@ -3,7 +3,7 @@
     en: {
       subtitle: "Senior iOS Engineer \u00b7 14+ years building iOS apps",
       aboutTitle: "About",
-      aboutP1: "Nearly 10 years at Ocado Technology contributing to Ocado Smart Platform \u2014 a modular, multi-tenant e-commerce platform powering 13 retail partners across 11 markets (Marks & Spencer, Kroger, AEON, Coles, and others). Focused on code quality, modular architecture, testing, and large-scale technical migrations (Objective-C \u2192 Swift, UIKit \u2192 SwiftUI, RxSwift \u2192 Combine/async-await).",
+      aboutP1: "Nearly 10 years at Ocado Technology contributing to Ocado Smart Platform \u2014 a modular, multi-tenant e-commerce platform powering 13 retail partners across 11 markets (Marks & Spencer, Kroger, AEON, Coles, and others). Focused on code quality, modular architecture (39+ SPM modules), testing, accessibility, and large-scale technical migrations (Objective-C \u2192 Swift, UIKit \u2192 SwiftUI, RxSwift \u2192 async/await).",
       aboutP2: "Outside of work, I also build my own projects, driven by two things I care about: nature and technology. I use AI as a multiplier across every phase \u2014 architecture, design, implementation, testing, localization, and even App Store preparation.",
       projectsTitle: "Projects",
       projectsNote: "Repos are private \u2014 TestFlight builds and demos available on request. SnapGPX is a mature, production-ready project I\u2019m preparing for the App Store. SmartCharge and PlanToWatch are proof-of-concept explorations to validate the feasibility of each idea.",
@@ -44,7 +44,7 @@
     es: {
       subtitle: "Senior iOS Engineer \u00b7 14+ a\u00f1os desarrollando apps iOS",
       aboutTitle: "Sobre m\u00ed",
-      aboutP1: "Casi 10 a\u00f1os en Ocado Technology contribuyendo a Ocado Smart Platform, una plataforma e-commerce modular y multi-tenant usada por 13 socios minoristas en 11 mercados (Marks & Spencer, Kroger, AEON, Coles, entre otros). Enfocado en calidad de c\u00f3digo, arquitectura modular, testing y migraciones t\u00e9cnicas a gran escala (Objective-C \u2192 Swift, UIKit \u2192 SwiftUI, RxSwift \u2192 Combine/async-await).",
+      aboutP1: "Casi 10 a\u00f1os en Ocado Technology contribuyendo a Ocado Smart Platform, una plataforma e-commerce modular y multi-tenant usada por 13 socios minoristas en 11 mercados (Marks & Spencer, Kroger, AEON, Coles, entre otros). Enfocado en calidad de c\u00f3digo, arquitectura modular (39+ m\u00f3dulos SPM), testing, accesibilidad y migraciones t\u00e9cnicas a gran escala (Objective-C \u2192 Swift, UIKit \u2192 SwiftUI, RxSwift \u2192 async/await).",
       aboutP2: "Adem\u00e1s, construyo mis propios proyectos, impulsado por dos cosas que me apasionan: la naturaleza y la tecnolog\u00eda. Uso la IA como multiplicador en cada fase: arquitectura, dise\u00f1o, implementaci\u00f3n, testing, localizaci\u00f3n y hasta la preparaci\u00f3n para App Store.",
       projectsTitle: "Proyectos",
       projectsNote: "Los repositorios son privados. Builds de TestFlight y demos disponibles a petici\u00f3n. SnapGPX es un proyecto maduro y listo para producci\u00f3n que estoy preparando para la App Store. SmartCharge y PlanToWatch son pruebas de concepto para validar la viabilidad de cada idea.",
